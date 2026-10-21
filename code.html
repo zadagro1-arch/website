@@ -1,0 +1,714 @@
+<!DOCTYPE html><html class="w-full min-h-screen" dir="rtl" lang="ar" style=""><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport">
+<title>شركة زاد للأستثمار الداجنى والحيوانى</title>
+<!-- Fonts & Icons -->
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&amp;family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "surface-container-low": "#eef5f0",
+            "primary-container": "#1b3830",
+            "on-tertiary": "#ffffff",
+            "tertiary-fixed-dim": "#95d3ba",
+            "on-secondary-fixed": "#261a00",
+            "on-tertiary-fixed": "#002116",
+            "on-error": "#ffffff",
+            "secondary-container": "#fdbf13",
+            "surface-bright": "#f4fbf6",
+            "on-surface-variant": "#414845",
+            "on-tertiary-container": "#6ba78f",
+            "surface": "#f4fbf6",
+            "outline": "#727975",
+            "on-primary": "#ffffff",
+            "surface-tint": "#47645b",
+            "secondary": "#795900",
+            "on-background": "#161d1a",
+            "inverse-on-surface": "#ebf2ed",
+            "error": "#ba1a1a",
+            "on-primary-fixed": "#022019",
+            "surface-container-highest": "#dde4df",
+            "on-error-container": "#93000a",
+            "surface-dim": "#d4dcd7",
+            "surface-container": "#e8f0ea",
+            "surface-container-lowest": "#ffffff",
+            "on-primary-container": "#83a297",
+            "on-tertiary-fixed-variant": "#0d513d",
+            "inverse-surface": "#2b322f",
+            "error-container": "#ffdad6",
+            "on-secondary-fixed-variant": "#5b4300",
+            "outline-variant": "#c1c8c4",
+            "on-secondary": "#ffffff",
+            "on-primary-fixed-variant": "#2f4c44",
+            "surface-variant": "#dde4df",
+            "primary": "#04221b",
+            "secondary-fixed-dim": "#fabd0d",
+            "tertiary-container": "#003b2b",
+            "primary-fixed-dim": "#adcdc2",
+            "secondary-fixed": "#ffdf9f",
+            "inverse-primary": "#adcdc2",
+            "on-secondary-container": "#6c5000",
+            "tertiary": "#002319",
+            "tertiary-fixed": "#b1f0d5",
+            "primary-fixed": "#c9eade",
+            "surface-container-high": "#e3eae5",
+            "background": "#f4fbf6",
+            "on-surface": "#161d1a"
+          },
+          borderRadius: {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+          spacing: {
+            "gutter": "1rem",
+            "margin": "1rem",
+            "space-xs": "0.25rem",
+            "space-md": "1rem",
+            "space-lg": "1.5rem",
+            "space-sm": "0.5rem",
+            "space-xl": "2.25rem"
+          },
+          fontFamily: {
+            sans: ["IBM Plex Sans Arabic", "Cairo", "sans-serif"],
+            "label-lg": ["IBM Plex Sans Arabic", "Cairo", "sans-serif"],
+            "headline-lg-mobile": ["IBM Plex Sans Arabic", "Cairo", "sans-serif"],
+            "body-sm": ["IBM Plex Sans Arabic", "Cairo", "sans-serif"],
+            "body-md": ["IBM Plex Sans Arabic", "Cairo", "sans-serif"],
+            "label-md": ["IBM Plex Sans Arabic", "Cairo", "sans-serif"],
+            "headline-xl-mobile": ["IBM Plex Sans Arabic", "Cairo", "sans-serif"],
+            "headline-sm": ["IBM Plex Sans Arabic", "Cairo", "sans-serif"],
+            "headline-xl": ["IBM Plex Sans Arabic", "Cairo", "sans-serif"],
+            "body-lg": ["IBM Plex Sans Arabic", "Cairo", "sans-serif"],
+            "label-sm": ["IBM Plex Sans Arabic", "Cairo", "sans-serif"],
+            "headline-md": ["IBM Plex Sans Arabic", "Cairo", "sans-serif"],
+            "headline-lg": ["IBM Plex Sans Arabic", "Cairo", "sans-serif"]
+          },
+          fontSize: {
+            "label-lg": ["14px", { "lineHeight": "20px", "fontWeight": "600" }],
+            "headline-lg-mobile": ["22px", { "lineHeight": "30px", "fontWeight": "700" }],
+            "body-sm": ["12px", { "lineHeight": "18px", "fontWeight": "400" }],
+            "body-md": ["14px", { "lineHeight": "22px", "fontWeight": "400" }],
+            "label-md": ["12px", { "lineHeight": "16px", "fontWeight": "500" }],
+            "headline-xl-mobile": ["26px", { "lineHeight": "36px", "fontWeight": "700" }],
+            "headline-sm": ["18px", { "lineHeight": "26px", "fontWeight": "600" }],
+            "headline-xl": ["32px", { "lineHeight": "44px", "fontWeight": "700" }],
+            "body-lg": ["16px", { "lineHeight": "26px", "fontWeight": "400" }],
+            "label-sm": ["10px", { "lineHeight": "14px", "fontWeight": "600" }],
+            "headline-md": ["22px", { "lineHeight": "32px", "fontWeight": "600" }],
+            "headline-lg": ["26px", { "lineHeight": "36px", "fontWeight": "700" }]
+          }
+        }
+      }
+    };
+  </script>
+<style>
+    @layer base {
+      html, body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        min-height: 100%;
+        background-color: #f4fbf6;
+        color: #1b3830;
+        font-family: 'IBM Plex Sans Arabic', 'Cairo', sans-serif;
+      }
+      .pb-safe { padding-bottom: env(safe-area-inset-bottom, 0px); }
+      .pt-safe { padding-top: env(safe-area-inset-top, 0px); }
+    }
+    ::-webkit-scrollbar { display: none; }
+  </style>
+</head>
+<body class="bg-[#f4fbf6] text-[#1b3830] font-sans w-full min-h-screen overflow-x-hidden overflow-y-auto m-0 p-0 flex flex-col">
+<!-- TOP HEADER -->
+<header class="fixed top-0 w-full z-50 pt-safe bg-surface/95 backdrop-blur-xl border-b border-outline-variant/30 shadow-[0_1px_8px_rgba(0,0,0,0.04)]">
+<div class="h-16 px-gutter flex items-center justify-between gap-space-sm max-w-7xl mx-auto">
+<div class="flex items-center gap-space-sm">
+<div class="flex items-center gap-2.5">
+<img alt="شعار شركة زاد للأستثمار الداجنى والحيوانى" class="h-12 w-12 object-cover rounded-xl shadow-sm bg-primary border border-secondary-container/40 p-0.5" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA68BzdhXGtLVQfu4AegDZShJPU5vpilkEvHmoWHcfZmg1_1F7mtN4HJLoUMtxGKiry33ew8jgBeIDHg4Xwq3FJNcdoS4mPc8G0OpfCG2vuyNUo1WQsTYgnhGAWlHazjbjr7d-udGXKhkpK6PPk9BLQn3Pc9qbyB8nSZCQiBfiy7plEdEb-ohmRcPkPbFN2xNBSPuXzp5ihcwhMcAKAD3fzNVDHirkEeNxaIW-nTgJZ7KmA8MW8FfKznYWo2wMMNhIYCbc">
+<div class="flex flex-col text-right">
+<span class="font-headline-sm text-[16px] text-primary leading-tight font-bold">شركة زاد للأستثمار الداجنى والحيوانى</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-0.5">صعيد مصر • أعلاف وبيطرة وتجهيزات</span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-2">
+<a aria-label="تواصل واتساب" class="h-10 px-3.5 rounded-full bg-secondary-container text-on-secondary-container flex items-center gap-1.5 font-label-md text-label-md hover:bg-secondary-fixed-dim transition-colors shadow-sm" href="https://wa.me/201031031394?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%20%D8%B2%D8%A7%D8%AF%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1">
+<span class="material-symbols-outlined text-[18px]">chat</span>
+<span class="hidden sm:inline font-bold">واتساب</span>
+</a>
+<a aria-label="اتصال هاتفي" class="w-10 h-10 rounded-full bg-primary-container text-on-primary flex items-center justify-center hover:bg-primary transition-colors shadow-sm" href="tel:01031031394">
+<span class="material-symbols-outlined text-[20px]">call</span>
+</a>
+</div>
+</div>
+</header>
+<!-- MAIN WRAPPER -->
+<main class="flex-1 flex flex-col relative w-full pt-16 bg-surface pb-6">
+<div class="flex flex-col w-full text-on-surface">
+<!-- HERO SECTION -->
+<section class="relative overflow-hidden bg-primary text-on-primary rounded-b-[2rem] px-gutter pt-space-lg pb-space-xl shadow-xl" id="hero" style="background-image: linear-gradient(rgba(4, 34, 27, 0.65), rgba(4, 34, 27, 0.82)), url('https://lh3.googleusercontent.com/aida/AEtjO1VwcvctJfbmZ2JuI1ERDq6jc187NMX_8FttW7W-GAJTwDSSqz9wNj1gGESLiZYmaYe_B_mFoGRiFrD7bXdRGBscMD97LK6Y_c5spVkjXet-oQQEz6TxLjqIXZecPJekgfhJYT_D1hYYByN54csQ-XJlUeSUSt6le-jLHI2VjGbN0RLG1_PS9eMBwD7XJPrsAcoWj-5Hdtph9b0wTpYxAAwaziJR3Bwl1Ag9Fex62morG0iuub-jlf59Qg-d'); background-size: cover; background-position: center center;">
+<div class="absolute -top-12 -left-12 w-48 h-48 bg-tertiary-container rounded-full blur-3xl opacity-60 pointer-events-none"></div>
+<div class="absolute bottom-0 -right-16 w-56 h-56 bg-secondary-container/10 rounded-full blur-2xl pointer-events-none"></div>
+<div class="relative z-10 flex flex-col gap-space-md max-w-4xl mx-auto">
+<!-- Badge -->
+<div class="inline-flex items-center gap-space-xs self-start px-3 py-1.5 rounded-full bg-surface-container-lowest/15 backdrop-blur-md text-secondary-fixed border border-secondary-fixed/20">
+<span class="material-symbols-outlined text-[16px] text-secondary-container" style="font-variation-settings: 'FILL' 1;">verified</span>
+<span class="font-label-sm text-label-sm font-semibold tracking-wide">الريادة المعتمدة في صعيد مصر</span>
+</div>
+<!-- Main Headline -->
+<h1 class="font-headline-xl-mobile text-headline-xl-mobile sm:text-3xl md:text-4xl text-on-primary leading-tight font-bold">
+            شريكك الموثوق لتنمية وتطوير مزارع <span class="text-secondary-container">الدواجن والماشية</span> في صعيد مصر
+          </h1>
+<!-- Supporting Body -->
+<p class="font-body-md text-body-md sm:text-base text-primary-fixed-dim leading-relaxed">
+            موزع معتمد لكبرى الشركات المحلية والعالمية في الأدوية واللقاحات البيطرية، الأعلاف فائقة التحويل، وسلالات الكتاكيت المنتخبة ومستلزمات الإنتاج الحديثة.
+          </p>
+<!-- Primary & Secondary CTAs -->
+<div class="flex flex-col sm:flex-row gap-space-sm pt-space-xs">
+<a class="h-12 px-6 rounded-xl bg-secondary-container text-on-secondary-container font-headline-sm text-headline-sm flex items-center justify-center gap-2 shadow-lg active:scale-[0.98] transition-transform font-bold" href="https://wa.me/201031031394?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%20%D8%B2%D8%A7%D8%AF%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1">
+<span class="material-symbols-outlined text-[22px]">chat</span>
+<span class="">تواصل مع المبيعات • واتساب</span>
+</a>
+<a class="h-12 px-5 rounded-xl bg-surface-container-lowest/15 hover:bg-surface-container-lowest/25 text-on-primary font-headline-sm text-headline-sm flex items-center justify-center gap-2 backdrop-blur-md transition-colors border border-white/20" href="#sectors">
+<span class="">تصفح قطاعات التوزيع</span>
+<span class="material-symbols-outlined text-[18px]">arrow_downward</span>
+</a>
+</div>
+<!-- Live Metric Badges -->
+<div class="grid grid-cols-3 gap-2 pt-space-md">
+<div class="bg-primary-container/85 border border-primary-fixed-dim/20 rounded-xl p-3 flex flex-col items-center text-center shadow-sm">
+<span class="font-headline-lg-mobile text-headline-lg-mobile text-secondary-container font-bold">+15</span>
+<span class="font-label-sm text-label-sm text-surface-variant mt-0.5">عاماً من الخبرة</span>
+</div>
+<div class="bg-primary-container/85 border border-primary-fixed-dim/20 rounded-xl p-3 flex flex-col items-center text-center shadow-sm">
+<span class="font-headline-lg-mobile text-headline-lg-mobile text-secondary-container font-bold">+50</span>
+<span class="font-label-sm text-label-sm text-surface-variant mt-0.5">شريك وشركة عالمية</span>
+</div>
+<div class="bg-primary-container/85 border border-primary-fixed-dim/20 rounded-xl p-3 flex flex-col items-center text-center shadow-sm">
+<span class="font-headline-lg-mobile text-headline-lg-mobile text-secondary-container font-bold">100%</span>
+<span class="font-label-sm text-label-sm text-surface-variant mt-0.5">تغطية محافظات الصعيد</span>
+</div>
+</div>
+</div>
+</section>
+<!-- QUICK ANNOUNCEMENT / TRUST TICKER -->
+<div class="px-gutter py-space-sm bg-surface-container-high border-y border-outline-variant/40 flex items-center justify-between gap-space-sm text-on-surface-variant max-w-7xl mx-auto w-full">
+<div class="flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary-container animate-pulse shrink-0"></span>
+<span class="font-label-sm text-label-sm font-semibold">حجوزات دورات كتاكيت التسمين والأعلاف متاحة الآن لمحافظات الصعيد</span>
+</div>
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0">local_shipping</span>
+</div>
+<!-- SECTORS SECTION (مجالات العمل) -->
+<section class="px-gutter pt-space-xl flex flex-col gap-space-md max-w-7xl mx-auto w-full" id="sectors">
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-2">
+<span class="w-2 h-5 rounded-full bg-secondary-container"></span>
+<span class="font-label-lg text-label-lg text-secondary font-bold">مجالات عملنا في زاد</span>
+</div>
+<h2 class="font-headline-xl-mobile text-headline-xl-mobile text-primary font-bold">
+            قطاعات التوزيع والخدمات المتكاملة
+          </h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            حلول علمية دقيقة تدعم دورة الإنتاج الداجني والحيواني من التحصين حتى التسويق.
+          </p>
+</div>
+<!-- Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<!-- Sector 1: Veterinary Medicine -->
+<div class="bg-surface-container-lowest rounded-2xl p-space-md shadow-md border border-outline-variant/30 flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<div class="w-12 h-12 rounded-xl bg-surface-container-low text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[28px]" style="font-variation-settings: 'FILL' 1;">vaccines</span>
+</div>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm font-semibold">وكالات حصرية</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold">الأدوية واللقاحات البيطرية</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              توزيع معتمد لأحدث المضادات الحيوية، الفيتامينات، أملاح المعادن، ومضادات السموم الفطرية، إلى جانب اللقاحات الحية والميتة المخزنة في سلسلة تبريد صارمة.
+            </p>
+<div class="h-36 rounded-xl overflow-hidden relative mt-1 bg-surface-container">
+<img alt="الأدوية واللقاحات البيطرية" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBVuTYZYvQlGF6Iy-tc6Co16j1v4ouYOnaOsKpgzg2zoPN6biEu-XwXXivmKwtTzkroOzglG4KryAEDBHZXwFw75Siw417Q6V8aENzCbP5uPs3Zi0DXC1oHsV15--9CN9oqI59S6Jb1fk2q8WQDIu_rgI6uTeRlLZJA6wLW7MmA7mYTEQ2De-4j3C2LCH_X34w65s-XAnsAOciFi8aMYrIwWafdrdrs-GaLOeTE_b04s86R4nKD3P7XRQ">
+<div class="absolute inset-0 bg-gradient-to-t from-primary/75 via-transparent to-transparent flex items-end p-2.5">
+<span class="text-on-primary font-label-sm text-label-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-secondary-container">ac_unit</span>
+                  سلسلة تبريد مخصصة للتحصينات
+                </span>
+</div>
+</div>
+<div class="flex items-center justify-between pt-1 mt-auto">
+<span class="font-label-md text-label-md text-on-surface-variant font-medium">سيرام، مضادات، إلكترولايت</span>
+<a class="font-label-md text-label-md text-secondary font-bold inline-flex items-center gap-0.5 hover:text-primary transition-colors" href="#contact">
+                طلب تسعيرة القطاع
+                <span class="material-symbols-outlined text-[16px]">chevron_left</span>
+</a>
+</div>
+</div>
+<!-- Sector 2: Feeds -->
+<div class="bg-surface-container-lowest rounded-2xl p-space-md shadow-md border border-outline-variant/30 flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<div class="w-12 h-12 rounded-xl bg-secondary-container/20 text-secondary flex items-center justify-center">
+<span class="material-symbols-outlined text-[28px]" style="font-variation-settings: 'FILL' 1;">grain</span>
+</div>
+<span class="px-2.5 py-1 rounded-full bg-secondary-container/20 text-on-secondary-container font-label-sm text-label-sm font-semibold">أعلى تحويل غذائي</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold">الأعلاف المتكاملة ومصبعات التسمين</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              أعلاف بادي، نامي، وناهي للدواجن، وأعلاف ماشية التسمين والحلاب بأعلى نسب بروتين طبيعي وهضم مثالي مطابقة للمواصفات القياسية المصرية.
+            </p>
+<div class="h-36 rounded-xl overflow-hidden relative mt-1 bg-surface-container">
+<img alt="الأعلاف المتكاملة ومصبعات التسمين" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBl-n3pH0_7qQZ_FRPz8rNa8M6X1gCLaVhKzXXRG7rijAvCA3pv8_ejbiwOIRjQUYjUW91PBaTGNvoaQiIk-kURCN5nn-0tWFB1PzChDA98ZXuQ56aEpghsg6x7vP4t7nztR6R-4IRtEnwjVQ-yOaBlCxdsvVrHfUa7g9UXcJMY_epKubTypxKCEiGeCxyBx-d7TNIIcGndq70W3GVXQNn5d9KnSxtinjGcK4oAddYfSeqbJyre1l9k-w">
+<div class="absolute inset-0 bg-gradient-to-t from-primary/75 via-transparent to-transparent flex items-end p-2.5">
+<span class="text-on-primary font-label-sm text-label-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-secondary-container">verified</span>
+                  خالية من المسببات الفطرية
+                </span>
+</div>
+</div>
+<div class="flex items-center justify-between pt-1 mt-auto">
+<span class="font-label-md text-label-md text-on-surface-variant font-medium">تسمين • بياض • ماشية</span>
+<a class="font-label-md text-label-md text-secondary font-bold inline-flex items-center gap-0.5 hover:text-primary transition-colors" href="#contact">
+                حجز كميات الأعلاف
+                <span class="material-symbols-outlined text-[16px]">chevron_left</span>
+</a>
+</div>
+</div>
+<!-- Sector 3: Chicks & Hatcheries -->
+<div class="bg-surface-container-lowest rounded-2xl p-space-md shadow-md border border-outline-variant/30 flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<div class="w-12 h-12 rounded-xl bg-surface-container-low text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[28px]" style="font-variation-settings: 'FILL' 1;">egg</span>
+</div>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm font-semibold">سلالات أصلية</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold">كتاكيت التسمين والبياض</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              توريد وحجز أسبوعي مباشر من أمهات التسمين المعتمدة (روس، كب، آربور آيكرز، وساسو) بحيوية فائقة، مناعات أميه ممتازة، وأوزان قياسية عند الاستلام.
+            </p>
+<div class="h-36 rounded-xl overflow-hidden relative mt-1 bg-surface-container">
+<img alt="كتاكيت التسمين والبياض" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDbTw4nGvKWUkRXZJs3cAHAgzDhd4aw2i293BXqH6nFI6F7vPK3d4FUsfKcrqIoHVvq0rjmaS1T_0QxyIRj5blIh5ENEP_fkMVsZmiTcdG55dVIH2aThngpupqoFilZhSql3JiWJ2wLzFj-hYPRA6C01nDTmLR5JCf8dpq3VoCq5ICHy7shNuWN4G_2Da5bBUqjd6589MDI10AGCW3drVLV3iTpYjat8WjT3W2PkX6SInU7wVBfPWPGqg">
+<div class="absolute inset-0 bg-gradient-to-t from-primary/75 via-transparent to-transparent flex items-end p-2.5">
+<span class="text-on-primary font-label-sm text-label-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-secondary-container">health_and_safety</span>
+                  فرز نخب أول مع شهادة سلامة
+                </span>
+</div>
+</div>
+<div class="flex items-center justify-between pt-1 mt-auto">
+<span class="font-label-md text-label-md text-on-surface-variant font-medium">حجوزات دورية أسبوعية</span>
+<a class="font-label-md text-label-md text-secondary font-bold inline-flex items-center gap-0.5 hover:text-primary transition-colors" href="#contact">
+                جدول استلام الدورات
+                <span class="material-symbols-outlined text-[16px]">chevron_left</span>
+</a>
+</div>
+</div>
+<!-- Sector 4: Farm Supplies & Equipment -->
+<div class="bg-surface-container-lowest rounded-2xl p-space-md shadow-md border border-outline-variant/30 flex flex-col gap-space-sm justify-between">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<div class="w-12 h-12 rounded-xl bg-surface-container-low text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[28px]" style="font-variation-settings: 'FILL' 1;">precision_manufacturing</span>
+</div>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm font-semibold">تجهيز متكامل</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold">مستلزمات وتجهيزات المزارع والعنابر</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                أنظمة السقايات الأوتوماتيكية، نبل الشرب، خطوط العلف، شفاطات وخلايا التبريد، الدفايات الغازية، والمطهرات البيولوجية لمقاومة الأوبئة.
+              </p>
+</div>
+<div class="flex items-center justify-between pt-1 border-t border-outline-variant/20">
+<span class="font-label-md text-label-md text-on-surface-variant font-medium">أنظمة تحكم • تبريد • تدفئة</span>
+<a class="font-label-md text-label-md text-secondary font-bold inline-flex items-center gap-0.5 hover:text-primary transition-colors" href="#contact">
+                مستلزمات العنابر
+                <span class="material-symbols-outlined text-[16px]">chevron_left</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- WHY CHOOSE ZAD SECTION (ميزاتنا التنافسية) -->
+<section class="px-gutter pt-space-xl flex flex-col gap-space-md max-w-7xl mx-auto w-full" id="about">
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-2">
+<span class="w-2 h-5 rounded-full bg-secondary-container"></span>
+<span class="font-label-lg text-label-lg text-secondary font-bold">قوتنا في الميدان</span>
+</div>
+<h2 class="font-headline-xl-mobile text-headline-xl-mobile text-primary font-bold">لماذا يختار المربون وأصحاب المشاريع "زاد"؟</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            نجمع بين المعرفة الفنية لبيئة ومناخ صعيد مصر والانتشار اللوجستي فائق السرعة.
+          </p>
+</div>
+<!-- Feature Grid 2x2 -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+<div class="bg-surface-container-lowest p-space-md rounded-2xl flex items-start gap-space-sm shadow-sm border border-outline-variant/20">
+<div class="w-11 h-11 shrink-0 rounded-xl bg-primary text-secondary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-[24px]">verified_user</span>
+</div>
+<div class="flex flex-col gap-0.5">
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold">وكالات معتمدة 100%</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">منتجات أصلية مباشرة من المصانع والمختبرات العالمية المعتمدة لضمان الفاعلية والأمان الحيوي.</p>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-space-md rounded-2xl flex items-start gap-space-sm shadow-sm border border-outline-variant/20">
+<div class="w-11 h-11 shrink-0 rounded-xl bg-primary text-secondary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-[24px]">local_shipping</span>
+</div>
+<div class="flex flex-col gap-0.5">
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold">أسطول شحن سريع ومجهز</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">سيارات نقل مكيفة ومجهزة تصل لعنبرك ومزرعتك في شتى قرى ومراكز محافظات الصعيد دون تأخير.</p>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-space-md rounded-2xl flex items-start gap-space-sm shadow-sm border border-outline-variant/20">
+<div class="w-11 h-11 shrink-0 rounded-xl bg-primary text-secondary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-[24px]">support_agent</span>
+</div>
+<div class="flex flex-col gap-0.5">
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold">إشراف واستشارات بيطرية مجانية</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">فريق من الأطباء البيطريين ومهندسي الإنتاج الحيواني لمتابعة أوزان قطيعك ووضع برامج التحصين المناسبة.</p>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-space-md rounded-2xl flex items-start gap-space-sm shadow-sm border border-outline-variant/20">
+<div class="w-11 h-11 shrink-0 rounded-xl bg-primary text-secondary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-[24px]">payments</span>
+</div>
+<div class="flex flex-col gap-0.5">
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold">أسعار تجارية وتسهيلات للمزارع</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">أسعار جملة تنافسية تضمن هامش ربح مجزي لأصحاب العنابر والمربين، مع نظم توريد ميسرة.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- INTERACTIVE DOSE / FEED CALCULATOR BANNER -->
+<section class="px-gutter pt-space-xl max-w-4xl mx-auto w-full">
+<div class="bg-primary text-on-primary rounded-2xl p-space-md sm:p-space-lg shadow-lg relative overflow-hidden border border-secondary-container/20">
+<div class="flex items-center gap-space-xs text-secondary-container mb-1">
+<span class="material-symbols-outlined text-[22px]">calculate</span>
+<span class="font-headline-sm text-headline-sm font-bold">حاسبة العلف التقديرية للدورة</span>
+</div>
+<p class="font-body-sm text-body-sm text-primary-fixed-dim mb-space-sm">
+            أدخل عدد كتاكيت دورتك لمعرفة كمية العلف الإجمالية ومعدل التحويل المتوقع (بمعدل 3.5 طن لكل 1,000 طائر).
+          </p>
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center gap-2 bg-primary-container rounded-xl p-2.5 border border-primary-fixed-dim/20">
+<label class="font-label-md text-label-md text-on-primary whitespace-nowrap font-bold" for="chickCount">العدد (طائر):</label>
+<input class="w-full bg-surface text-primary rounded-lg px-3 py-2 font-label-lg text-label-lg focus:outline-none focus:ring-2 focus:ring-secondary-container text-left font-bold" id="chickCount" min="100" step="100" type="number" value="1000">
+</div>
+<div class="grid grid-cols-2 gap-2 pt-1">
+<div class="bg-surface-container-lowest/10 p-3 rounded-xl text-center border border-white/10">
+<span class="font-label-sm text-label-sm text-primary-fixed-dim block">إجمالي العلف المطلوب</span>
+<span class="font-headline-sm text-headline-sm text-secondary-container font-bold" id="feedOutput">3.5 طن</span>
+</div>
+<div class="bg-surface-container-lowest/10 p-3 rounded-xl text-center border border-white/10">
+<span class="font-label-sm text-label-sm text-primary-fixed-dim block">الوزن التقديري للدورة</span>
+<span class="font-headline-sm text-headline-sm text-secondary-container font-bold" id="weightOutput">2.15 كجم/طائر</span>
+</div>
+</div>
+<button class="mt-1 h-11 rounded-xl bg-secondary-container text-on-secondary-container font-label-lg text-label-lg font-bold flex items-center justify-center gap-1.5 active:scale-[0.98] transition-transform shadow-md" id="calcQuoteBtn">
+<span class="">طلب تسعيرة لهذه الكمية فوراً</span>
+<span class="material-symbols-outlined text-[18px]">send</span>
+</button>
+</div>
+</div>
+</section>
+<!-- SUCCESS PARTNERS (شركاء النجاح) -->
+<section class="px-gutter pt-space-xl flex flex-col gap-space-md max-w-7xl mx-auto w-full" id="partners">
+<div class="flex flex-col gap-1 text-center">
+<span class="font-label-lg text-label-lg text-secondary font-bold">توكيلات وعلامات نعتز بتمثيلها</span>
+<h2 class="font-headline-xl-mobile text-headline-xl-mobile text-primary font-bold">
+            شركاء النجاح والتوكيلات المعتمدة
+          </h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md mx-auto">
+            نوفر لعملائنا في الصعيد منتجات أصلية بضمان كبرى مصانع الأدوية والأعلاف.
+          </p>
+</div>
+<!-- Pure Partner Logos Grid -->
+<div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
+  <div class="bg-surface-container-lowest p-4 rounded-2xl shadow-sm flex items-center justify-center border border-outline-variant/30 hover:border-secondary-container transition-all h-28">
+    <img alt="MN Trade" class="w-full h-full object-contain p-2" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAen0Y7MCXFl-d-1fpqMh4Iszix4zjymTLQa8J_Pj9A6Pizcpx1I5iWDsOZ8067JfAgyatAPJDlJPPaz5CFZPvSG_xWN7vfm0dKSJBtXeeYk6ayuiL5ld4q-r18iSLZJT1MRPOWrQTDJQ67XkFn01O1G2SgpZXQb1wFMFQA4DQcuRiPCQ5p3CjUOBWiKBx3NH_PJ8xP5V9x5s--SO3-irSj0e7NCpZVdRpwATJdcSZlWtYA2dZOSsip9AmawTGlu0PZj8M">
+  </div>
+  <div class="bg-surface-container-lowest p-4 rounded-2xl shadow-sm flex items-center justify-center border border-outline-variant/30 hover:border-secondary-container transition-all h-28">
+    <img alt="Ghannam Corporate" class="w-full h-full object-contain p-2" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBEjP8Vu2FES_VIU9C1ST4Rv0xwfxt3uruw7d7bvY11o7mXeOic_8zBOBwp5nyhodaM3tlIXUsXBWPLwJxLVCyvFgCBiN8TXLGivxQA7O5FG7QDWHW-SUYDjsvAdBxziISP9EwkL5xypB9wr1NQYZBDZ_JkTW4R_XbKRzkLhdfdio6Cc0ohw0zbMSam7RIprBBXRC4mizkHIGQCXsojfyIctx9D3uaoisiMD9dLmLtVpmLYORqEM-xpvty1whaTffVtwRY">
+  </div>
+  <div class="bg-surface-container-lowest p-4 rounded-2xl shadow-sm flex items-center justify-center border border-outline-variant/30 hover:border-secondary-container transition-all h-28">
+    <img alt="Multi Medica" class="w-full h-full object-contain p-2" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDnHTKBpWcE8sb2eTPQBwfwoKVIh8zLsM6KH5_pspLF0M-VjZSZwfUrY4bw7z9OzgcbAaGDXb7D8g5PMmyR75AXu58oYdVfymuxhncw6HbkGa4UtkSMjl0Oi6JWK441I3JleaLuYilroX8VTmepGDWdVG6d6xvO5EOBfbGoVwLHp_JbBVQQalnUBvCD7I9jjCSeIo9g90tfjOrA6k7_n68FyawXayAWXTSivFre4m2N-LWos81vofO7faQM9q1ySHw6xMs">
+  </div>
+  <div class="bg-surface-container-lowest p-4 rounded-2xl shadow-sm flex items-center justify-center border border-outline-variant/30 hover:border-secondary-container transition-all h-28">
+    <img alt="ATCO Pharma" class="w-full h-full object-contain p-2" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBKN_pZffsUpj0agYTtcS4RndsyKYq3p82eakaVsiatLRRn5ielNg9HeZ9frF04WNpTw5s_yv_IYYmlcbgSi6jpOZBYFGPAUVqRfQ3N1TGwpxZaRPd4VmJcFAEA8__zG6N3WAzmzL1dnCNlJ16iVbkf1v4pOrrO_b815_Yd6cBYBGfBV7O4AlEIZqvO5rDWZADrklHlT95X7wlSUYTQaI8mmwFwavDErH1jFYtQftDpsaI9YAMObH7ZJT67-KII-V0XUXk">
+  </div>
+  <div class="bg-surface-container-lowest p-4 rounded-2xl shadow-sm flex items-center justify-center border border-outline-variant/30 hover:border-secondary-container transition-all h-28">
+    <img alt="Medex Pro" class="w-full h-full object-contain p-2" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCzsb2m-lQs75YqcTfzYMocsPzp_1tlv3TL6UXr8PqmKKNx0e3O5DIcvvQPQim-loHFhAGDuehn3JzU1pngBej-inU6XKvHa6fMvX_De2WEyBrck2TderrWYtLl4i0xWJ7V-goQDZb1Q5GBzIsnpoZfaqrnyvi36i4ZTBy8lKREf5OfR7-OAhLjX5RRvVKk2YxPeKS09Iu_DqwgEcnQea8czIOVMVR4ILnc3eT6iT7-RVcZc0jzC0C_TDQhozb7AX0VtxY">
+  </div>
+  <div class="bg-surface-container-lowest p-4 rounded-2xl shadow-sm flex items-center justify-center border border-outline-variant/30 hover:border-secondary-container transition-all h-28">
+    <img alt="القاهرة للدواجن CPC" class="w-full h-full object-contain p-2" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB-vwu9r8xvIUpzVljXsDzzFK5Uy4NGAyH5QxD9hRGbqa6rLddD0dqVl3SWcGopsspWO09hYPYCejjzMFGfuFxihNMAJk1UlZggYupIDzVEKi3wcsle5FreHb51VkqNFSfaYh7z1qqII5p_yxjWJ-Chn1_kMTkVlfIz7iUkFqytRO525hrbES2Oczz2L48VT6EODjJG91g2PxJE7TetWd1J0OHv4qYMFh_HyteRyeKYOShKWcM8xwVfyoVtohPnvLbqtgU">
+  </div>
+  <div class="bg-surface-container-lowest p-4 rounded-2xl shadow-sm flex items-center justify-center border border-outline-variant/30 hover:border-secondary-container transition-all h-28">
+    <img alt="دواجن الوطنية" class="w-full h-full object-contain p-2" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAgYChyHZad_6aYwUqJurxf5xREf2ftQCTl51GA1obT1S7b0DYFWC9mdjxyOkjcOCQooIPl8w450PKcSp1oS4MJb1Rltku7Kp3OstekXzVeUJpkgyRBvFn8y_HguumBZyoE6En--BQ30oqwjf4wkzWki80O8waQmyzkQIOsxvjVJW-0MtEYyTXtPhXOb9QVX29hL6NAPE7GkfgBURMxphF0yvY-BT5pOvsyUI6XIckHQB872G9VlkUbH0Go95UCdt4S2VM">
+  </div>
+  <div class="bg-surface-container-lowest p-4 rounded-2xl shadow-sm flex items-center justify-center border border-outline-variant/30 hover:border-secondary-container transition-all h-28">
+    <img alt="مجموعة شركات هايد Haid Group" class="w-full h-full object-contain p-2" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAObqMZdJuwbDsPyVq4tpdm7sTL6Cx2JJ_dmP9pGnCFlkPPJzCKEzGcZIiUMa_kxrVEIqKiQ5ZvJPfFSDd3GzLPwQTmqNCXQaL9nFU8O6a5VTq2wPFH6DOHo8jK6TK4xNnevTa9Ud5R9sMNqBc3ILerX2OjcC4J4eSXBaNq0oIAO-KrdTUO-kYRc4BrjH7bgP00pG22S_LSqHkV2U-w9kVBFPuH8SHCshWLBO-HEqexPLlh8tyKN4npIJpvIzWApuyKwyo">
+  </div>
+  <div class="bg-surface-container-lowest p-4 rounded-2xl shadow-sm flex items-center justify-center border border-outline-variant/30 hover:border-secondary-container transition-all h-28">
+    <img alt="Zhengbang Technology" class="w-full h-full object-contain p-2" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDoNeNmTzO4sJrAE80msqEozjWwOySOrz0UQtEhzkhNQikO10g-arkyFsNAqAULAs9Jsc5EtEVRvbna4yZgRXU1VyV0r-yMvZI-T1zLIN00ID1GP04w6odP3t_VT-aRezQBRqSynHYcyO4Sd4b5mHZ2ksHxb0RmB2x_ZAxVcqE9vVR5pILIkK2T5ZLFyH2pvkFIEAg7WmP9BqPOCEeyI7Lq60VGy6wviYY-oWfWBpzP4aS6Ny3l2xViaDpiqK6oLabiLdQ">
+  </div>
+  <div class="bg-surface-container-lowest p-4 rounded-2xl shadow-sm flex items-center justify-center border border-outline-variant/30 hover:border-secondary-container transition-all h-28">
+    <img alt="الدقهلية للدواجن Dakahlia Poultry" class="w-full h-full object-contain p-2" src="https://lh3.googleusercontent.com/aida-public/AB6AXuABwnCBVdXjfQZGBPa5gCCyGpijyim-Kjo4_IoHL7cJ5XR0bODLJj7HunemZLP0aqXZ7mw-cjNex98WL0aDYnvKA0uh7p2jvVKYbt827W8CDrbavNC_Q9o4bZ56vXQSUnIXWPpRMEyiLjTAam5INOmNp3Hda1cDEkRsu-qp3qsA0XxAwKlgVDv5HnT4Z6RvXifutKTZGibis11DeCmTrQpaLQSJxGmiuqJqLtABJ35pi56Yg0pmmng5A3SJvZ3v0ZXheUc">
+  </div>
+  <div class="bg-surface-container-lowest p-4 rounded-2xl shadow-sm flex items-center justify-center border border-outline-variant/30 hover:border-secondary-container transition-all h-28">
+    <img alt="Nagy Awad Animal Nutrition" class="w-full h-full object-contain p-2" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAlKDgkVl3_wOMP9CGUJD1YstSuhicrWe4qs6mCLYillSIjr76N-amRt53y5nO-nPxc8ExyoziMDfRUYS_ewREqKF6Nx7CAMhv6a6fkuk8bbO8Cv-WcWbiaAH9WqmQH5dKZqj2sEhNQoXZbOCXqcuoGUR43I2CX0RpkO7JJ-UzNMC5GDStvhH3OiM_iY8inBB49fcJKOuuD8tSKu0vfddtUMwVS8x5kD_T8WnGIg2fDX63GBLjcZq1tQ3mZBey_ON0HCe4">
+  </div>
+  <div class="bg-surface-container-lowest p-4 rounded-2xl shadow-sm flex items-center justify-center border border-outline-variant/30 hover:border-secondary-container transition-all h-28">
+    <img alt="كتكوت الوادي" class="w-full h-full object-contain p-2" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAkk9RDPmHf9m5W9B9eqQ83zp5r7xxmFrPGmnDfaX_03uxRyHHLC5utVTbmgU54AbuntBkqxD8gmwl_dQ5rdcmFuHQ1yvqLSKi1h8cr8Rb0UKg7YP85IdKn98Pnh5rtMrY1PtyOCdpa0yc7rPxWNSpC3M42Ew_zATwQVeDc-uZdFHcfAAgW2MpRgD9pa35gqqe90bCnVDWYK7n1-rBrbYr0PVRHN7m-fam6qe-n65silUb1he5XC02snzyL-bK_JDt8AVA">
+  </div>
+  <div class="bg-surface-container-lowest p-4 rounded-2xl shadow-sm flex items-center justify-center border border-outline-variant/30 hover:border-secondary-container transition-all h-28">
+    <img alt="MSD Animal Health" class="w-full h-full object-contain p-2" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBZdWsT2EZaiU3E9qXYeIG825FH7shtFZvDstifORE63DgfhSKexZT5Fe4cNJKdaGU13R4D3erRkOo7JFmdmLpfePOX1DVLDQZXy2wn3ggD-TF2vFxv7fVCJTfXCVfJsYwrKojAXqUG2kDSImxzFM19v9vLVVl8sCtRnibBg8AcyyFDfa2-gpvboWifndxmorrYytQpmKlWXVnzm7pciUj7FLUbgtr0Q6F9fpUhUTdZRfU5W1t_GAbfI11oRurQ_oLNfO8">
+  </div>
+  <div class="bg-surface-container-lowest p-4 rounded-2xl shadow-sm flex items-center justify-center border border-outline-variant/30 hover:border-secondary-container transition-all h-28">
+    <img alt="Zoetis" class="w-full h-full object-contain p-2" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA3VQb6gHy-6h9DvbDihV8QHTXS12pdhQ9wppfq--YKu3F5Rl0_xrGSCSlgRTYOi7WUBZFljhkfx9oTd8vtnmHTqRXhy5Ii1Uqny26CNvKLPuXILpbXKX6zLO-f2kCABaqk8QRY-kY1PEac6H8L7xsOKMxXplf8c_mg7lisgsyXKt0WifE5JwaEr8KBciZ2Bix5mu2aNRgElyc-NWevH9ihue1P_9RUld668lWnpXWtRs-LYimEIx52anfdzNrDWJSSMGs">
+  </div>
+  <div class="bg-surface-container-lowest p-4 rounded-2xl shadow-sm flex items-center justify-center border border-outline-variant/30 hover:border-secondary-container transition-all h-28">
+    <img alt="IFT Corporation" class="w-full h-full object-contain p-2" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDDQltu88c1koyYAzwCDUbnDo8nvAzgIMb_r6FyD961eZJmgIcDUv09TIt6Ub--QGMzfZaAsRib-HOP_scvkwBbD867TmTnwK22ZhgW40NH0kulL-h51adNwvVpQ_kIx98uR_rJiVxbtG_EXuIR89ag7n5fMQWirjVYjMsaFxECkJIgglUrjhWKo63eW_3OYr_9Hjd2UBEuga6ytGJ8Mx1mm78kmcim7gn5qprbxwonprBCYj_l8ynVr4wksDBITmbbmEE">
+  </div>
+</div>
+</section>
+<!-- COVERAGE & BRANCHES (تغطية صعيد مصر) -->
+<section class="px-gutter pt-space-xl flex flex-col gap-space-md max-w-7xl mx-auto w-full">
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-2">
+<span class="w-2 h-5 rounded-full bg-secondary-container"></span>
+<span class="font-label-lg text-label-lg text-secondary font-bold">شبكة التوزيع</span>
+</div>
+<h2 class="font-headline-xl-mobile text-headline-xl-mobile text-primary font-bold">
+            تغطية شاملة لكافة محافظات الصعيد
+          </h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            مستودعات مركزية ومكاتب توزيع ميدانية لخدمة مربين الدواجن والماشية في أسرع وقت.
+          </p>
+</div>
+<!-- Map representation card -->
+<div class="w-full rounded-2xl overflow-hidden shadow-md relative border border-outline-variant/30 bg-surface-container-lowest">
+<div class="w-full h-48 bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDuV3fIxzHjirSw0b4OyvpX_rLLIRgJEyrVHfrkcAg1VxoOg_G8SgcGdyJkDI-A7ypcH5Rv85PA29NH59LgNW9Nyr46PeaMCpIrSzv7LBImM2D7D5G2gF6rclcTNPWp0_8RK9xu5e1QxIRRjV81dflvDnTCFDvnTCpZbBWSbIW3oVafVt7WUr8P1iiIch3SFyTTY8-slacK6WpR3-wxd4ebrh-IfdDmm3pGqPW-05G2_p3efvx-Gko8cQ')"></div>
+<div class="p-space-md flex flex-col gap-space-sm">
+<div class="flex items-center justify-between flex-wrap gap-2">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[22px]">hub</span>
+<span class="font-headline-sm text-headline-sm text-primary font-bold">مراكز التوزيع النشطة</span>
+</div>
+<span class="font-label-sm text-label-sm bg-surface-container text-primary font-bold px-2.5 py-1 rounded-full border border-outline-variant/30">جاهزية التوصيل اليومي</span>
+</div>
+<!-- Province Chips -->
+<div class="flex flex-wrap gap-1.5 pt-1">
+<span class="px-3 py-1 rounded-full bg-surface-container-low text-primary font-label-md text-label-md font-bold border border-outline-variant/30">📍 قنا</span>
+<span class="px-3 py-1 rounded-full bg-surface-container-low text-primary font-label-md text-label-md font-bold border border-outline-variant/30">📍 سوهاج</span>
+<span class="px-3 py-1 rounded-full bg-surface-container-low text-primary font-label-md text-label-md font-bold border border-outline-variant/30">📍 أسيوط</span>
+<span class="px-3 py-1 rounded-full bg-surface-container-low text-primary font-label-md text-label-md font-bold border border-outline-variant/30">📍 الأقصر</span>
+<span class="px-3 py-1 rounded-full bg-surface-container-low text-primary font-label-md text-label-md font-bold border border-outline-variant/30">📍 أسوان</span>
+<span class="px-3 py-1 rounded-full bg-surface-container-low text-primary font-label-md text-label-md font-bold border border-outline-variant/30">📍 المنيا</span>
+<span class="px-3 py-1 rounded-full bg-surface-container-low text-primary font-label-md text-label-md font-bold border border-outline-variant/30">📍 البحر الأحمر</span>
+</div>
+</div>
+</div>
+</section>
+<!-- QUOTE & INQUIRY FORM (طلب تسعير أو استفسار سريع) -->
+<section class="px-gutter pt-space-xl flex flex-col gap-space-md max-w-4xl mx-auto w-full" id="contact">
+<div class="bg-surface-container-lowest p-space-md sm:p-space-lg rounded-2xl shadow-lg border border-outline-variant/30 flex flex-col gap-space-md">
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary-container"></span>
+<span class="font-label-lg text-label-lg text-secondary font-bold">طلب عرض أسعار أو حجز دورة</span>
+</div>
+<h2 class="font-headline-lg-mobile text-headline-lg-mobile text-primary font-bold">
+              دعنا نساعدك في تحقيق أعلى إنتاجية
+            </h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              سجل بياناتك وسيصلك اتصال من مسؤول القطاع البيطري والمبيعات خلال 30 دقيقة.
+            </p>
+</div>
+<form class="flex flex-col gap-space-sm" id="leadForm">
+<!-- Name -->
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md text-on-surface font-semibold" for="clientName">الاسم بالكامل أو اسم المزرعة:</label>
+<div class="relative flex items-center">
+<input class="w-full h-12 bg-surface rounded-xl pr-10 pl-3 font-body-md text-body-md text-on-surface focus:outline-none focus:ring-2 focus:ring-secondary-container border border-outline-variant/40" id="clientName" placeholder="مثال: د. أحمد قناوي / مزرعة البركة" required="" type="text">
+<span class="material-symbols-outlined text-[20px] text-on-surface-variant absolute right-3 pointer-events-none">person</span>
+</div>
+</div>
+<!-- Phone Number -->
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md text-on-surface font-semibold" for="clientPhone">رقم الهاتف / الواتساب:</label>
+<div class="relative flex items-center">
+<input class="w-full h-12 bg-surface rounded-xl pr-10 pl-3 font-body-md text-body-md text-on-surface focus:outline-none focus:ring-2 focus:ring-secondary-container border border-outline-variant/40 text-right" id="clientPhone" placeholder="010XXXXXXXX" required="" type="tel">
+<span class="material-symbols-outlined text-[20px] text-on-surface-variant absolute right-3 pointer-events-none">phone</span>
+</div>
+</div>
+<!-- Province Selection -->
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md text-on-surface font-semibold" for="province">المحافظة التابع لها:</label>
+<div class="relative flex items-center">
+<select class="w-full h-12 bg-surface rounded-xl pr-10 pl-3 font-body-md text-body-md text-on-surface focus:outline-none focus:ring-2 focus:ring-secondary-container border border-outline-variant/40 appearance-none" id="province" required="">
+<option disabled="" selected="" value="">اختر المحافظة لتحديد أقرب مندوب</option>
+<option value="qena">محافظة قنا ومراكزها</option>
+<option value="sohag">محافظة سوهاج ومراكزها</option>
+<option value="assiut">محافظة أسيوط ومراكزها</option>
+<option value="luxor">محافظة الأقصر ومراكزها</option>
+<option value="aswan">محافظة أسوان ومراكزها</option>
+<option value="minya">محافظة المنيا ومراكزها</option>
+<option value="redsea">محافظة البحر الأحمر ومراكزها</option>
+</select>
+<span class="material-symbols-outlined text-[20px] text-on-surface-variant absolute right-3 pointer-events-none">location_on</span>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant absolute left-3 pointer-events-none">expand_more</span>
+</div>
+</div>
+<!-- Sector Interest -->
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md text-on-surface font-semibold">القطاع المطلوب للاستفسار:</label>
+<div class="grid grid-cols-2 gap-2">
+<label class="flex items-center gap-2 p-2.5 bg-surface rounded-xl cursor-pointer border border-outline-variant/30">
+<input checked="" class="accent-primary w-4 h-4 rounded" name="interest" type="checkbox" value="veterinary">
+<span class="font-label-md text-label-md text-on-surface font-medium">أدوية وتحصينات</span>
+</label>
+<label class="flex items-center gap-2 p-2.5 bg-surface rounded-xl cursor-pointer border border-outline-variant/30">
+<input checked="" class="accent-primary w-4 h-4 rounded" name="interest" type="checkbox" value="feed">
+<span class="font-label-md text-label-md text-on-surface font-medium">أعلاف دواجن وماشية</span>
+</label>
+<label class="flex items-center gap-2 p-2.5 bg-surface rounded-xl cursor-pointer border border-outline-variant/30">
+<input class="accent-primary w-4 h-4 rounded" name="interest" type="checkbox" value="chicks">
+<span class="font-label-md text-label-md text-on-surface font-medium">حجز كتاكيت</span>
+</label>
+<label class="flex items-center gap-2 p-2.5 bg-surface rounded-xl cursor-pointer border border-outline-variant/30">
+<input class="accent-primary w-4 h-4 rounded" name="interest" type="checkbox" value="supplies">
+<span class="font-label-md text-label-md text-on-surface font-medium">مستلزمات عنابر</span>
+</label>
+</div>
+</div>
+<!-- Notes / Quantity -->
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md text-on-surface font-semibold" for="notes">ملاحظات أو الكميات التقديرية (اختياري):</label>
+<textarea class="w-full bg-surface rounded-xl p-3 font-body-md text-body-md text-on-surface focus:outline-none focus:ring-2 focus:ring-secondary-container border border-outline-variant/40" id="notes" placeholder="اكتب نوع التحصين المطلوب أو عدد أطنان العلف..." rows="2"></textarea>
+</div>
+<!-- Submit Button -->
+<button class="mt-2 h-12 w-full rounded-xl bg-secondary-container text-on-secondary-container font-headline-sm text-headline-sm font-bold flex items-center justify-center gap-2 shadow-md active:scale-[0.98] transition-transform" type="submit">
+<span class="">إرسال الطلب لمسؤول المبيعات</span>
+<span class="material-symbols-outlined text-[20px]">send</span>
+</button>
+<div class="hidden p-3 rounded-xl bg-surface-container text-primary font-label-md text-label-md text-center border border-primary/20" id="formSuccess">
+              ✅ تم استلام طلبك بنجاح! سيتواصل معك مستشار زاد الزراعي خلال دقائق.
+            </div>
+</form>
+</div>
+</section>
+<!-- EMERGENCY VETERINARY FLOATING BANNER -->
+<section class="px-gutter pt-space-lg max-w-4xl mx-auto w-full">
+<div class="bg-surface-container-high rounded-2xl p-space-md flex items-center justify-between gap-space-sm shadow-sm border border-outline-variant/30">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-primary text-secondary-container flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[22px]">medical_services</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-primary font-bold">طوارئ عنابر ومزارع الصعيد</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">استشارة بيطرية فورية لحالات النفوق المفاجئ</span>
+</div>
+</div>
+<a class="h-10 px-4 rounded-full bg-primary text-on-primary font-label-md text-label-md font-bold flex items-center gap-1.5 shrink-0 hover:bg-primary-container transition-colors shadow-sm" href="tel:01031031394">
+<span class="material-symbols-outlined text-[18px]">call</span>
+<span class="">اتصال</span>
+</a>
+</div>
+</section>
+</div>
+<!-- FOOTER -->
+<footer class="w-full bg-surface-container-low mt-space-xl pt-space-lg pb-space-xl px-gutter border-t border-outline-variant/40">
+<div class="flex flex-col gap-space-md max-w-lg mx-auto text-center">
+<div class="flex items-center justify-center gap-space-xs text-primary font-headline-sm text-headline-sm font-bold">
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">verified</span>
+<span class="">شركة زاد للأستثمار الداجنى والحيوانى</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+          رواد توريد الأعلاف المعتمدة والتحصينات البيطرية ومستلزمات المزارع في محافظات قنا، سوهاج، أسيوط، وأسوان، والأقصر، والمنيا، والبحر الأحمر.
+        </p>
+<div class="flex flex-wrap justify-center items-center gap-space-sm text-on-surface-variant font-label-sm text-label-sm font-medium">
+<span class="inline-flex items-center gap-1"><span class="material-symbols-outlined text-[14px] text-secondary">location_on</span>فروع الصعيد</span>
+<span class="inline-flex items-center gap-1"><span class="material-symbols-outlined text-[14px] text-secondary">schedule</span>خدمة عملاء 24/7</span>
+<span class="inline-flex items-center gap-1"><span class="material-symbols-outlined text-[14px] text-secondary">local_shipping</span>توصيل مباشر للمزارع</span>
+</div>
+<div class="pt-space-sm font-label-sm text-label-sm text-on-surface-variant/80">
+          جميع الحقوق محفوظة © شركة زاد للأستثمار الداجنى والحيوانى
+        </div>
+</div>
+</footer>
+</main>
+<!-- FLOATING WHATSAPP BUTTON -->
+<div class="fixed left-4 z-50 flex items-center group bottom-6">
+<a aria-label="تواصل واتساب مباشرة" class="relative flex items-center gap-2 px-3.5 py-2.5 rounded-full shadow-xl bg-[#25D366] text-white hover:bg-[#20ba59] active:scale-[0.98] transition-all shadow-[0_4px_16px_rgba(37,211,102,0.4)]" href="https://wa.me/201031031394?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%20%D8%B2%D8%A7%D8%AF%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1" rel="noopener noreferrer" target="_blank">
+<span class="absolute -inset-0.5 rounded-full bg-[#25D366] opacity-40 animate-ping pointer-events-none"></span>
+<svg class="w-6 h-6 fill-current relative z-10" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M12.04 2c-5.5 0-9.97 4.46-9.97 9.96 0 1.76.46 3.48 1.34 5l-1.42 5.19 5.33-1.4c1.47.8 3.12 1.22 4.72 1.22 5.5 0 9.97-4.46 9.97-9.96A9.95 9.95 0 0 0 12.04 2zm0 18.23c-1.49 0-2.95-.4-4.22-1.15l-.3-.18-3.13.82.84-3.05-.2-.31a8.27 8.27 0 0 1-1.27-4.38c0-4.57 3.73-8.28 8.28-8.28 2.21 0 4.29.86 5.85 2.42a8.23 8.23 0 0 1 2.42 5.86c0 4.57-3.72 8.25-8.27 8.25zm4.53-6.19c-.25-.13-1.48-.73-1.71-.81-.23-.09-.4-.13-.57.13-.17.25-.66.81-.81.98-.15.17-.3.19-.55.06-.25-.13-1.07-.39-2.03-1.25-.75-.67-1.26-1.5-1.41-1.75-.15-.25-.02-.39.11-.51.11-.11.25-.29.37-.43.12-.15.16-.25.24-.42.08-.17.04-.32-.02-.45-.06-.13-.57-1.37-.78-1.87-.21-.49-.42-.43-.57-.44l-.49-.01c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.13.17 1.78 2.71 4.3 3.8.6.26 1.07.42 1.44.54.61.19 1.16.17 1.6.1.49-.07 1.48-.61 1.69-1.19.21-.58.21-1.08.15-1.19-.06-.11-.23-.17-.48-.3z"></path>
+</svg>
+<span class="relative z-10 font-label-md text-label-md font-bold tracking-tight text-white">تواصل واتساب</span>
+</a>
+</div>
+<!-- JAVASCRIPT WITH DOMCONTENTLOADED WRAPPER -->
+<script>
+    window.addEventListener('DOMContentLoaded', function () {
+      const chickInput = document.getElementById('chickCount');
+      const feedOutput = document.getElementById('feedOutput');
+      const weightOutput = document.getElementById('weightOutput');
+      const calcQuoteBtn = document.getElementById('calcQuoteBtn');
+      const leadForm = document.getElementById('leadForm');
+
+      function updateCalculator() {
+        if (!chickInput || !feedOutput) return;
+        const count = Math.max(0, parseFloat(chickInput.value) || 0);
+        // Calculation: 3.5 tons per 1,000 birds
+        const totalFeedTons = ((count * 3.5) / 1000).toFixed(2);
+        feedOutput.textContent = `${totalFeedTons} طن`;
+        if (weightOutput) {
+          weightOutput.textContent = '2.15 كجم/طائر';
+        }
+      }
+
+      if (chickInput) {
+        chickInput.addEventListener('input', updateCalculator);
+      }
+
+      if (calcQuoteBtn) {
+        calcQuoteBtn.addEventListener('click', function () {
+          const count = chickInput ? chickInput.value : '1000';
+          const notesElem = document.getElementById('notes');
+          if (notesElem) {
+            notesElem.value = `طلب تسعيرة لدورة عدد ${count} طائر تشمل العلف والتحصينات البيطرية.`;
+          }
+          const contactSection = document.getElementById('contact');
+          if (contactSection) {
+            contactSection.scrollIntoView({ behavior: 'smooth' });
+          }
+        });
+      }
+
+      if (leadForm) {
+        leadForm.addEventListener('submit', function (event) {
+          event.preventDefault();
+          const successMsg = document.getElementById('formSuccess');
+          if (successMsg) {
+            successMsg.classList.remove('hidden');
+            setTimeout(function () {
+              successMsg.classList.add('hidden');
+              leadForm.reset();
+            }, 5000);
+          }
+        });
+      }
+    });
+  </script>
+
+
+</body></html>
